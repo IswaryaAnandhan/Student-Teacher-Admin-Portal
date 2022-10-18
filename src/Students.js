@@ -62,7 +62,7 @@ function Students() {
   return (
     <div className="container-fluid">
       <div className="d-sm-flex align-items-center justify-content-between mb-4">
-        <h1 className="h3 mb-0 text-gray-800">Students</h1>
+        <h1 className="h3 mb-0 text-gray-800">List of Students</h1>
         <Link
           to={"/portal/create-students"}
           className="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"
