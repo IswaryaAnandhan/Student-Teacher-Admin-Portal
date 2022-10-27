@@ -54,7 +54,7 @@ function Register() {
         <div className="card-body p-0">
           <div className="row">
             <div className="col-lg-5 d-none d-lg-block">
-            <img className="bg-login-image" src="./image/register.jpg" alt="login"/>
+            <img className="bg-register-image" src="./image/register.jpg" alt="register"/>
             </div>
             <div className="col-lg-7">
               <div className="p-5">
