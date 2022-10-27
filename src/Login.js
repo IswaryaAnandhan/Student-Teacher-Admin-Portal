@@ -41,11 +41,13 @@ function Login() {
           <div className="card o-hidden border-0 shadow-lg my-5">
             <div className="card-body p-0">
               <div className="row">
-                <div className="col-lg-6 d-none d-lg-block bg-login-image"></div>
+                <div className="col-lg-6 d-none d-lg-block ">
+                  <img className="bg-login-image" src="./image/login.jpg" alt="login"/>
+                </div>
                 <div className="col-lg-6">
                   <div className="p-5">
                     <div className="text-center">
-                      <h1 className="h4 text-gray-900 mb-4">Welcome Back!</h1>
+                      <h1 className="h4 text-gray-900 mb-4">Welcome Back to Student Teacher Management Portal!</h1>
                     </div>
                     <form onSubmit={formik.handleSubmit} className="user">
                       <div className="form-group">
